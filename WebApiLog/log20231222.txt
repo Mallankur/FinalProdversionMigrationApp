@@ -1,0 +1,1337 @@
+2023-12-22 12:10:35.295 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:10:36.004 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:10:36.005 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:10:36.009 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:10:36.011 [INF] Hosting environment: Development
+2023-12-22 12:10:36.013 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:10:38.440 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:10:39.104 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 668.305ms
+2023-12-22 12:10:39.107 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:10:39.167 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 60.2338ms
+2023-12-22 12:10:39.169 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:10:39.169 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:10:39.169 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:10:39.170 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:10:39.172 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:10:39.184 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.9736ms
+2023-12-22 12:10:39.219 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:10:39.219 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:10:39.222 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 52.2153ms
+2023-12-22 12:10:39.222 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 52.0006ms
+2023-12-22 12:10:39.224 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:10:39.224 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 54.9908ms
+2023-12-22 12:10:39.235 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.1527ms
+2023-12-22 12:10:39.348 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:10:39.558 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 209.9148ms
+2023-12-22 12:12:08.297 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/CycleData?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 8
+2023-12-22 12:12:08.438 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:12:08.548 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:12:08.551 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.CycleData (Revamp_Ank_App)'
+2023-12-22 12:12:08.576 [INF] Route matched with {action = "CycleData", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Revamp_Ank_App.Client.RevampDocument]] CycleData(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 12:43:00.739 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:43:00.994 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:43:00.996 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:43:01.000 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:43:01.002 [INF] Hosting environment: Development
+2023-12-22 12:43:01.003 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:43:03.380 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:43:03.495 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 117.7012ms
+2023-12-22 12:43:03.499 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:43:03.555 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:43:03.555 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:43:03.555 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:43:03.555 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:43:03.556 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 56.6142ms
+2023-12-22 12:43:03.560 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:43:03.602 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 47.0305ms
+2023-12-22 12:43:03.630 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:43:03.630 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:43:03.630 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 75.6075ms
+2023-12-22 12:43:03.630 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 75.5668ms
+2023-12-22 12:43:03.632 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:43:03.632 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 77.6688ms
+2023-12-22 12:43:03.645 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.0842ms
+2023-12-22 12:43:03.761 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:43:03.886 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.405ms
+2023-12-22 12:43:51.671 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/CycleData?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 8
+2023-12-22 12:43:51.854 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:43:51.873 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:43:51.875 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.CycleData (Revamp_Ank_App)'
+2023-12-22 12:43:51.891 [INF] Route matched with {action = "CycleData", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Revamp_Ank_App.Client.RevampDocument]] CycleData(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 12:44:55.460 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:44:55.722 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:44:55.723 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:44:55.727 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:44:55.728 [INF] Hosting environment: Development
+2023-12-22 12:44:55.729 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:44:57.897 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:44:58.010 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 116.1204ms
+2023-12-22 12:44:58.014 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:44:58.069 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 54.8497ms
+2023-12-22 12:44:58.071 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:44:58.072 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:44:58.072 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:44:58.072 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:44:58.078 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:44:58.088 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.0178ms
+2023-12-22 12:44:58.116 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:44:58.116 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:44:58.118 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 46.6527ms
+2023-12-22 12:44:58.118 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 46.5122ms
+2023-12-22 12:44:58.129 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:44:58.129 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 57.9895ms
+2023-12-22 12:44:58.142 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.8672ms
+2023-12-22 12:44:58.246 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:44:58.363 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.1158ms
+2023-12-22 12:45:03.154 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/CycleData?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - application/json 8
+2023-12-22 12:45:03.400 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:45:03.420 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:45:03.423 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.CycleData (Revamp_Ank_App)'
+2023-12-22 12:45:03.438 [INF] Route matched with {action = "CycleData", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Revamp_Ank_App.Client.RevampDocument]] CycleData(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 12:45:05.895 [INF] Stored Procedure Call End for CycleID:1289Total data fill operation took: 2271 ms
+2023-12-22 12:45:06.033 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Revamp_Ank_App.Client.RevampDocument, Revamp_Ank_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-22 12:45:06.050 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.CycleData (Revamp_Ank_App) in 2609.4641ms
+2023-12-22 12:45:06.051 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.CycleData (Revamp_Ank_App)'
+2023-12-22 12:45:06.051 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/CycleData?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - 200 null application/json; charset=utf-8 2897.0077ms
+2023-12-22 12:48:30.761 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:48:31.030 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:48:31.032 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:48:31.038 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:48:31.040 [INF] Hosting environment: Development
+2023-12-22 12:48:31.042 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:48:33.768 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:48:33.883 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 117.8826ms
+2023-12-22 12:48:33.887 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:48:33.942 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 54.3651ms
+2023-12-22 12:48:33.943 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:48:33.944 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:48:33.944 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:48:33.944 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:48:33.944 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:48:33.956 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 12.631ms
+2023-12-22 12:48:33.984 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:48:33.984 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:48:33.984 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 40.3834ms
+2023-12-22 12:48:33.984 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 41.062ms
+2023-12-22 12:48:33.987 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:48:33.987 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 43.5496ms
+2023-12-22 12:48:33.999 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.129ms
+2023-12-22 12:48:34.111 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:48:34.226 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.8401ms
+2023-12-22 12:49:03.583 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:49:03.587 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 12:49:03.603 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 12:49:03.762 [INF] Data Processing in API 12/22/2023 12:49:03 PM
+2023-12-22 12:49:03.764 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3081 12/22/2023 12:49:03 PM
+2023-12-22 12:50:19.757 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:50:20.049 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:50:20.051 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:50:20.055 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:50:20.057 [INF] Hosting environment: Development
+2023-12-22 12:50:20.059 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:50:22.231 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:50:22.344 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 116.4094ms
+2023-12-22 12:50:22.348 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:50:22.402 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 54.4178ms
+2023-12-22 12:50:22.405 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:50:22.405 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:50:22.405 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:50:22.406 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:50:22.406 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:50:22.422 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.5019ms
+2023-12-22 12:50:22.450 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:50:22.450 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:50:22.453 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 47.3432ms
+2023-12-22 12:50:22.453 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 47.4777ms
+2023-12-22 12:50:22.462 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:50:22.462 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 56.6058ms
+2023-12-22 12:50:22.471 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.0041ms
+2023-12-22 12:50:22.584 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:50:22.700 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.4704ms
+2023-12-22 12:50:28.506 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:50:28.511 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:50:28.513 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:50:28.519 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 13.6145ms
+2023-12-22 12:51:02.824 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:51:02.982 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:51:03.003 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:51:03.004 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:51:03.005 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:51:03.006 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 181.4547ms
+2023-12-22 12:51:07.512 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:51:07.514 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:51:07.514 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:51:07.515 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:51:07.515 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:51:07.515 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 2.9726ms
+2023-12-22 12:51:22.714 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:51:22.715 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:51:22.716 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:51:22.716 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:51:22.716 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:51:22.716 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 1.5989ms
+2023-12-22 12:51:38.950 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:51:38.951 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:51:38.951 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:51:38.951 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:51:38.952 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:51:38.952 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 1.657ms
+2023-12-22 12:52:06.144 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:52:06.149 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:52:06.149 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:52:06.149 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:52:06.149 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:52:06.150 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 5.4165ms
+2023-12-22 12:52:08.330 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:52:08.336 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:52:08.336 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:52:08.336 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:52:08.336 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:52:08.336 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 6.5377ms
+2023-12-22 12:52:16.638 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:52:16.639 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:52:16.639 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:52:16.639 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:52:16.639 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:52:16.640 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 1.4757ms
+2023-12-22 12:52:18.282 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:52:18.283 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:52:18.283 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:52:18.283 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:52:18.283 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:52:18.283 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 1.4585ms
+2023-12-22 12:52:19.231 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:52:19.232 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:52:19.232 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:52:19.232 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:52:19.233 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:52:19.233 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 1.2745ms
+2023-12-22 12:52:19.975 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:52:19.976 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:52:19.976 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:52:19.976 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:52:19.976 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:52:19.976 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 1.3347ms
+2023-12-22 12:52:24.768 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:52:24.769 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:52:24.769 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:52:24.769 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:52:24.769 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:52:24.769 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 1.4835ms
+2023-12-22 12:53:18.545 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:53:18.748 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:53:18.749 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:53:18.752 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:53:18.754 [INF] Hosting environment: Development
+2023-12-22 12:53:18.755 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:53:19.015 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:53:19.135 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 122.9303ms
+2023-12-22 12:53:19.140 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:53:19.193 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 53.2212ms
+2023-12-22 12:53:19.195 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:53:19.195 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:53:19.195 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:53:19.196 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:53:19.197 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:53:19.209 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.9123ms
+2023-12-22 12:53:19.242 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:53:19.242 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:53:19.246 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 50.641ms
+2023-12-22 12:53:19.246 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 50.7363ms
+2023-12-22 12:53:19.246 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:53:19.246 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 50.9158ms
+2023-12-22 12:53:19.257 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.8993ms
+2023-12-22 12:53:19.370 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:53:19.495 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.1539ms
+2023-12-22 12:53:23.330 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:53:23.403 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10204: Unable to validate issuer. validationParameters.ValidIssuer is null or whitespace AND validationParameters.ValidIssuers is null or empty.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:53:23.405 [INF] Bearer was not authenticated. Failure message: IDX10204: Unable to validate issuer. validationParameters.ValidIssuer is null or whitespace AND validationParameters.ValidIssuers is null or empty.
+2023-12-22 12:53:23.409 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:53:23.412 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:53:23.418 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 88.1408ms
+2023-12-22 12:54:25.871 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:54:26.132 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:54:26.133 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:54:26.137 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:54:26.139 [INF] Hosting environment: Development
+2023-12-22 12:54:26.141 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:54:29.423 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:54:29.547 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 126.4843ms
+2023-12-22 12:54:29.551 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:54:29.610 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 58.9746ms
+2023-12-22 12:54:29.612 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:54:29.613 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:54:29.613 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:54:29.613 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:54:29.613 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:54:29.627 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 14.5718ms
+2023-12-22 12:54:29.662 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:54:29.662 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:54:29.666 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 53.4315ms
+2023-12-22 12:54:29.666 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 52.7286ms
+2023-12-22 12:54:29.674 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:54:29.674 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 61.3923ms
+2023-12-22 12:54:29.682 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.0803ms
+2023-12-22 12:54:29.797 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:54:29.917 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.9802ms
+2023-12-22 12:54:37.276 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:54:37.349 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10204: Unable to validate issuer. validationParameters.ValidIssuer is null or whitespace AND validationParameters.ValidIssuers is null or empty.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:54:37.350 [INF] Bearer was not authenticated. Failure message: IDX10204: Unable to validate issuer. validationParameters.ValidIssuer is null or whitespace AND validationParameters.ValidIssuers is null or empty.
+2023-12-22 12:54:37.354 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:54:37.357 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:54:37.363 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 86.8279ms
+2023-12-22 12:56:12.465 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 12:56:12.735 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 12:56:12.736 [INF] Now listening on: http://localhost:5021
+2023-12-22 12:56:12.740 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 12:56:12.742 [INF] Hosting environment: Development
+2023-12-22 12:56:12.743 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 12:56:13.015 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 12:56:13.177 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 165.218ms
+2023-12-22 12:56:13.182 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 12:56:13.261 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 78.3853ms
+2023-12-22 12:56:13.264 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 12:56:13.264 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 12:56:13.264 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 12:56:13.264 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 12:56:13.267 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 12:56:13.283 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 19.4044ms
+2023-12-22 12:56:13.315 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 12:56:13.315 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 12:56:13.319 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 55.0385ms
+2023-12-22 12:56:13.319 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 54.7679ms
+2023-12-22 12:56:13.321 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 12:56:13.322 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 57.9277ms
+2023-12-22 12:56:13.335 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.033ms
+2023-12-22 12:56:13.456 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 12:56:13.596 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.1074ms
+2023-12-22 12:56:15.852 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:56:16.084 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:56:16.104 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:56:16.107 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:56:16.110 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:56:16.116 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 263.7711ms
+2023-12-22 12:56:40.321 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 12:56:40.323 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 12:56:40.324 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 12:56:40.325 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 12:56:40.326 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 12:56:40.326 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 5.6109ms
+2023-12-22 13:04:30.625 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:04:30.920 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:04:30.922 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:04:30.925 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:04:30.928 [INF] Hosting environment: Development
+2023-12-22 13:04:30.929 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:04:33.523 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:04:33.660 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 139.6189ms
+2023-12-22 13:04:33.671 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:04:33.746 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 75.6896ms
+2023-12-22 13:04:33.749 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:04:33.749 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:04:33.750 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:04:33.750 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:04:33.750 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:04:33.756 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.9729ms
+2023-12-22 13:04:33.808 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:04:33.808 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:04:33.811 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 62.5321ms
+2023-12-22 13:04:33.811 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 61.6371ms
+2023-12-22 13:04:33.818 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:04:33.819 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 69.394ms
+2023-12-22 13:04:33.829 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.9132ms
+2023-12-22 13:04:33.969 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:04:34.096 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.5031ms
+2023-12-22 13:05:39.033 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 13:05:39.148 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 13:05:39.168 [INF] Bearer was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://10.2.10.19:32770'. Did not match: validationParameters.ValidIssuer: 'null' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'https://localhost:32770'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2023-12-22 13:05:39.173 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 13:05:39.175 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 13:05:39.183 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 150.1295ms
+2023-12-22 13:10:08.590 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:10:08.875 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:10:08.877 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:10:08.882 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:10:08.884 [INF] Hosting environment: Development
+2023-12-22 13:10:08.886 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:10:20.908 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:10:20.976 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 71.2685ms
+2023-12-22 13:10:20.981 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:10:21.033 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 52.9541ms
+2023-12-22 13:10:21.036 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:10:21.036 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:10:21.037 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:10:21.037 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:10:21.037 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:10:21.050 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.8743ms
+2023-12-22 13:10:21.078 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:10:21.078 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:10:21.080 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 43.9564ms
+2023-12-22 13:10:21.080 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 43.8299ms
+2023-12-22 13:10:21.087 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:10:21.087 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 50.5963ms
+2023-12-22 13:10:21.097 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.0586ms
+2023-12-22 13:10:21.213 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:10:21.322 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.2176ms
+2023-12-22 13:10:51.295 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 13:11:12.446 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10204: Unable to validate issuer. validationParameters.ValidIssuer is null or whitespace AND validationParameters.ValidIssuers is null or empty.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 13:11:12.448 [INF] Bearer was not authenticated. Failure message: IDX10204: Unable to validate issuer. validationParameters.ValidIssuer is null or whitespace AND validationParameters.ValidIssuers is null or empty.
+2023-12-22 13:11:12.451 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-22 13:11:12.454 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-22 13:11:12.461 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 401 0 null 21165.4755ms
+2023-12-22 13:13:27.597 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:13:27.807 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:13:27.809 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:13:27.812 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:13:27.814 [INF] Hosting environment: Development
+2023-12-22 13:13:27.815 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:13:30.176 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:13:30.246 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 72.6703ms
+2023-12-22 13:13:30.250 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:13:30.302 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 51.8806ms
+2023-12-22 13:13:30.305 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:13:30.305 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:13:30.305 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:13:30.305 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:13:30.311 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:13:30.322 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.5905ms
+2023-12-22 13:13:30.347 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:13:30.347 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:13:30.349 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 44.3973ms
+2023-12-22 13:13:30.349 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 44.5496ms
+2023-12-22 13:13:30.360 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:13:30.360 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 55.1878ms
+2023-12-22 13:13:30.371 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.4953ms
+2023-12-22 13:13:30.479 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:13:30.618 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.0448ms
+2023-12-22 13:14:22.201 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:14:22.460 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:14:22.462 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:14:22.466 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:14:22.468 [INF] Hosting environment: Development
+2023-12-22 13:14:22.469 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:14:22.693 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:14:22.764 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 72.9925ms
+2023-12-22 13:14:22.767 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:14:22.820 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 53.6728ms
+2023-12-22 13:14:22.823 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:14:22.824 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:14:22.824 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:14:22.825 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:14:22.827 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:14:22.840 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 15.0342ms
+2023-12-22 13:14:22.873 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:14:22.873 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:14:22.875 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 51.8328ms
+2023-12-22 13:14:22.875 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 51.5788ms
+2023-12-22 13:14:22.877 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:14:22.877 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 54.0311ms
+2023-12-22 13:14:22.891 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.2072ms
+2023-12-22 13:14:23.007 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:14:23.160 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.854ms
+2023-12-22 13:14:52.531 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 13:15:09.264 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:15:09.272 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - 500 null text/plain; charset=utf-8 16740.2801ms
+2023-12-22 13:17:08.606 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:17:08.850 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:17:08.854 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:17:08.856 [INF] Hosting environment: Development
+2023-12-22 13:17:08.858 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:17:09.097 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger - null null
+2023-12-22 13:17:09.194 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger - 301 0 null 99.9139ms
+2023-12-22 13:17:09.196 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2023-12-22 13:17:09.255 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 58.288ms
+2023-12-22 13:17:09.256 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui.css - null null
+2023-12-22 13:17:09.256 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:17:09.258 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:17:09.258 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:17:09.264 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2023-12-22 13:17:09.268 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.4359ms
+2023-12-22 13:17:09.313 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:17:09.313 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:17:09.313 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:17:09.313 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 55.0965ms
+2023-12-22 13:17:09.313 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui.css - 200 143943 text/css 57.5313ms
+2023-12-22 13:17:09.313 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 57.3249ms
+2023-12-22 13:17:09.320 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.0939ms
+2023-12-22 13:17:09.462 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2023-12-22 13:17:09.487 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/favicon-32x32.png - null null
+2023-12-22 13:17:09.487 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-22 13:17:09.487 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/favicon-32x32.png - 200 628 image/png 0.7444ms
+2023-12-22 13:17:09.593 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.1542ms
+2023-12-22 13:18:09.356 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:18:09.619 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:18:09.624 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:18:09.625 [INF] Hosting environment: Development
+2023-12-22 13:18:09.627 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:18:12.410 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2023-12-22 13:18:12.529 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 124.0438ms
+2023-12-22 13:18:12.530 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:18:12.531 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2023-12-22 13:18:12.532 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.8497ms
+2023-12-22 13:18:12.555 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.806ms
+2023-12-22 13:18:12.684 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2023-12-22 13:18:12.797 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.5254ms
+2023-12-22 13:20:12.316 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:20:12.595 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:20:12.596 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:20:12.600 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:20:12.601 [INF] Hosting environment: Development
+2023-12-22 13:20:12.602 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:20:15.073 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:20:15.139 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 68.7954ms
+2023-12-22 13:20:15.143 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:20:15.195 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 51.9624ms
+2023-12-22 13:20:15.197 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:20:15.198 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:20:15.198 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:20:15.198 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:20:15.198 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:20:15.215 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.6842ms
+2023-12-22 13:20:15.248 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:20:15.248 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:20:15.251 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 53.5621ms
+2023-12-22 13:20:15.251 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 52.6524ms
+2023-12-22 13:20:15.253 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:20:15.253 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 55.0168ms
+2023-12-22 13:20:15.266 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.9197ms
+2023-12-22 13:20:15.375 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:20:15.490 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.818ms
+2023-12-22 13:20:17.726 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 13:54:14.466 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:54:14.722 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:54:14.723 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:54:14.727 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:54:14.728 [INF] Hosting environment: Development
+2023-12-22 13:54:14.730 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:54:15.115 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:54:15.197 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 84.0439ms
+2023-12-22 13:54:15.201 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:54:15.265 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 64.0702ms
+2023-12-22 13:54:15.269 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:54:15.269 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:54:15.269 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:54:15.269 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:54:15.276 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:54:15.292 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 22.6388ms
+2023-12-22 13:54:15.329 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:54:15.329 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:54:15.333 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 64.0711ms
+2023-12-22 13:54:15.333 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 63.7021ms
+2023-12-22 13:54:15.335 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:54:15.335 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 65.8539ms
+2023-12-22 13:54:15.347 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.5348ms
+2023-12-22 13:54:15.492 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:54:15.621 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 129.3391ms
+2023-12-22 13:54:25.639 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:54:25.710 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:54:25.718 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 79.0183ms
+2023-12-22 13:54:32.427 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:54:32.432 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:54:32.433 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 6.2856ms
+2023-12-22 13:55:02.285 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:55:02.510 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:55:02.511 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:55:02.515 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:55:02.516 [INF] Hosting environment: Development
+2023-12-22 13:55:02.517 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:55:04.630 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:55:04.707 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 80.296ms
+2023-12-22 13:55:04.712 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:55:04.767 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 55.3723ms
+2023-12-22 13:55:04.770 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:55:04.771 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:55:04.771 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:55:04.771 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:55:04.776 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:55:04.787 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.6063ms
+2023-12-22 13:55:04.826 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:55:04.826 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:55:04.829 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 58.1461ms
+2023-12-22 13:55:04.829 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 58.9063ms
+2023-12-22 13:55:04.830 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:55:04.830 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 59.6205ms
+2023-12-22 13:55:04.841 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.2071ms
+2023-12-22 13:55:04.953 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:55:05.071 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.7913ms
+2023-12-22 13:55:07.750 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:07.822 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:07.830 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 80.1057ms
+2023-12-22 13:55:26.389 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:26.395 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:26.396 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 7.3167ms
+2023-12-22 13:55:27.329 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:27.335 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:27.336 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 6.6334ms
+2023-12-22 13:55:28.005 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:28.009 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:28.010 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 4.7721ms
+2023-12-22 13:55:28.771 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:28.775 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:28.775 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 4.5672ms
+2023-12-22 13:55:29.663 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:29.668 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:29.669 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 5.8496ms
+2023-12-22 13:55:30.505 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:30.508 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:30.509 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 4.1467ms
+2023-12-22 13:55:31.944 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:55:31.948 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:55:31.949 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 500 null text/plain; charset=utf-8 4.471ms
+2023-12-22 13:57:18.789 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 13:57:19.888 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 13:57:19.890 [INF] Now listening on: http://localhost:5021
+2023-12-22 13:57:19.894 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:57:19.896 [INF] Hosting environment: Development
+2023-12-22 13:57:19.898 [INF] Content root path: C:\Users\ankur\Desktop\AnkurAvinex_G24_Prod\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 13:57:23.257 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 13:57:23.407 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 158.0178ms
+2023-12-22 13:57:23.412 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 13:57:23.504 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 92.4409ms
+2023-12-22 13:57:23.506 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 13:57:23.507 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 13:57:23.507 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 13:57:23.507 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 13:57:23.509 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 13:57:23.523 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.0865ms
+2023-12-22 13:57:23.566 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 13:57:23.566 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 13:57:23.567 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 60.9375ms
+2023-12-22 13:57:23.567 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 60.1915ms
+2023-12-22 13:57:23.585 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 13:57:23.586 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 79.0241ms
+2023-12-22 13:57:23.600 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.6088ms
+2023-12-22 13:57:23.734 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 13:57:23.901 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.5606ms
+2023-12-22 13:57:31.061 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 13:57:31.065 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 13:57:31.087 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 13:57:31.599 [INF] Data Processing in API 12/22/2023 1:57:31 PM
+2023-12-22 13:57:31.601 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3413 12/22/2023 1:57:31 PM
+2023-12-22 13:58:12.397 [INF] Stored Procedure Call End for CycleID:3413Total data fill operation took: 40594 ms
+2023-12-22 13:59:15.732 [INF] Batch 1 insert took: 277 ms
+2023-12-22 13:59:16.775 [INF] Batch 2 insert took: 51 ms
+2023-12-22 13:59:18.088 [INF] Batch 3 insert took: 366 ms
+2023-12-22 13:59:19.883 [INF] Batch 4 insert took: 760 ms
+2023-12-22 13:59:21.278 [INF] Batch 5 insert took: 412 ms
+2023-12-22 13:59:22.449 [INF] Batch 6 insert took: 369 ms
+2023-12-22 13:59:23.758 [INF] Batch 7 insert took: 413 ms
+2023-12-22 13:59:24.974 [INF] Batch 8 insert took: 378 ms
+2023-12-22 13:59:26.287 [INF] Batch 9 insert took: 377 ms
+2023-12-22 13:59:27.874 [INF] Batch 10 insert took: 714 ms
+2023-12-22 13:59:29.574 [INF] Batch 11 insert took: 345 ms
+2023-12-22 13:59:30.772 [INF] Batch 12 insert took: 363 ms
+2023-12-22 13:59:31.970 [INF] Batch 13 insert took: 391 ms
+2023-12-22 13:59:33.215 [INF] Batch 14 insert took: 380 ms
+2023-12-22 13:59:34.730 [INF] Batch 15 insert took: 347 ms
+2023-12-22 13:59:36.145 [INF] Batch 16 insert took: 372 ms
+2023-12-22 13:59:37.560 [INF] Batch 17 insert took: 429 ms
+2023-12-22 13:59:39.075 [INF] Batch 18 insert took: 403 ms
+2023-12-22 13:59:40.333 [INF] Batch 19 insert took: 381 ms
+2023-12-22 13:59:41.743 [INF] Batch 20 insert took: 347 ms
+2023-12-22 13:59:43.125 [INF] Batch 21 insert took: 422 ms
+2023-12-22 13:59:44.563 [INF] Batch 22 insert took: 350 ms
+2023-12-22 13:59:46.191 [INF] Batch 23 insert took: 381 ms
+2023-12-22 13:59:47.717 [INF] Batch 24 insert took: 439 ms
+2023-12-22 13:59:48.979 [INF] Batch 25 insert took: 377 ms
+2023-12-22 13:59:50.325 [INF] Batch 26 insert took: 358 ms
+2023-12-22 13:59:52.120 [INF] Batch 27 insert took: 368 ms
+2023-12-22 13:59:53.543 [INF] Batch 28 insert took: 378 ms
+2023-12-22 13:59:56.152 [INF] Batch 29 insert took: 510 ms
+2023-12-22 13:59:57.563 [INF] Batch 30 insert took: 394 ms
+2023-12-22 13:59:58.820 [INF] Batch 31 insert took: 403 ms
+2023-12-22 14:00:00.039 [INF] Batch 32 insert took: 386 ms
+2023-12-22 14:00:01.456 [INF] Batch 33 insert took: 388 ms
+2023-12-22 14:00:02.702 [INF] Batch 34 insert took: 388 ms
+2023-12-22 14:00:04.294 [INF] Batch 35 insert took: 346 ms
+2023-12-22 14:00:05.730 [INF] Batch 36 insert took: 375 ms
+2023-12-22 14:00:07.132 [INF] Batch 37 insert took: 405 ms
+2023-12-22 14:00:08.377 [INF] Batch 38 insert took: 344 ms
+2023-12-22 14:00:09.887 [INF] Batch 39 insert took: 393 ms
+2023-12-22 14:00:11.047 [INF] Batch 40 insert took: 342 ms
+2023-12-22 14:00:14.038 [INF] Batch 41 insert took: 381 ms
+2023-12-22 14:00:16.068 [INF] Batch 42 insert took: 453 ms
+2023-12-22 14:00:17.289 [INF] Batch 43 insert took: 356 ms
+2023-12-22 14:00:19.120 [INF] Batch 44 insert took: 744 ms
+2023-12-22 14:00:21.627 [INF] Batch 45 insert took: 332 ms
+2023-12-22 14:00:23.654 [INF] Batch 46 insert took: 450 ms
+2023-12-22 14:00:24.896 [INF] Batch 47 insert took: 371 ms
+2023-12-22 14:00:27.258 [INF] Batch 48 insert took: 376 ms
+2023-12-22 14:00:28.500 [INF] Batch 49 insert took: 349 ms
+2023-12-22 14:00:29.959 [INF] Batch 50 insert took: 529 ms
+2023-12-22 14:00:32.056 [INF] Batch 51 insert took: 382 ms
+2023-12-22 14:00:33.274 [INF] Batch 52 insert took: 410 ms
+2023-12-22 14:00:34.488 [INF] Batch 53 insert took: 379 ms
+2023-12-22 14:00:35.769 [INF] Batch 54 insert took: 383 ms
+2023-12-22 14:00:37.027 [INF] Batch 55 insert took: 396 ms
+2023-12-22 14:00:38.730 [INF] Batch 56 insert took: 771 ms
+2023-12-22 14:00:40.120 [INF] Batch 57 insert took: 390 ms
+2023-12-22 14:00:41.584 [INF] Batch 58 insert took: 430 ms
+2023-12-22 14:00:42.712 [INF] Batch 59 insert took: 356 ms
+2023-12-22 14:00:44.177 [INF] Batch 60 insert took: 404 ms
+2023-12-22 14:00:45.470 [INF] Batch 61 insert took: 365 ms
+2023-12-22 14:00:46.776 [INF] Batch 62 insert took: 402 ms
+2023-12-22 14:00:47.914 [INF] Batch 63 insert took: 354 ms
+2023-12-22 14:00:49.448 [INF] Batch 64 insert took: 451 ms
+2023-12-22 14:00:51.445 [INF] Batch 65 insert took: 367 ms
+2023-12-22 14:00:52.798 [INF] Batch 66 insert took: 401 ms
+2023-12-22 14:00:54.268 [INF] Batch 67 insert took: 365 ms
+2023-12-22 14:00:55.996 [INF] Batch 68 insert took: 398 ms
+2023-12-22 14:00:57.190 [INF] Batch 69 insert took: 353 ms
+2023-12-22 14:00:58.375 [INF] Batch 70 insert took: 359 ms
+2023-12-22 14:00:59.645 [INF] Batch 71 insert took: 401 ms
+2023-12-22 14:01:00.755 [INF] Batch 72 insert took: 338 ms
+2023-12-22 14:01:02.086 [INF] Batch 73 insert took: 404 ms
+2023-12-22 14:01:03.215 [INF] Batch 74 insert took: 338 ms
+2023-12-22 14:01:04.821 [INF] Batch 75 insert took: 429 ms
+2023-12-22 14:01:06.138 [INF] Batch 76 insert took: 354 ms
+2023-12-22 14:01:09.971 [INF] Batch 77 insert took: 351 ms
+2023-12-22 14:01:11.227 [INF] Batch 78 insert took: 428 ms
+2023-12-22 14:01:12.252 [INF] Batch 79 insert took: 299 ms
+2023-12-22 14:01:12.261 [INF] Total data push to MongoDB operation took: 220644 ms
+2023-12-22 14:01:12.273 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3413 12/22/2023 2:01:12 PM
+2023-12-22 14:01:12.371 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-12-22 14:01:12.440 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 221339.2135ms
+2023-12-22 14:01:12.448 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 14:01:12.462 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 200 null text/plain; charset=utf-8 221392.5245ms
+2023-12-22 18:14:34.691 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 18:14:37.041 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 18:14:37.043 [INF] Now listening on: http://localhost:5021
+2023-12-22 18:14:37.047 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 18:14:37.049 [INF] Hosting environment: Development
+2023-12-22 18:14:37.050 [INF] Content root path: C:\Users\ankur\Desktop\AnkurAvinex_G24_Prod\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 18:14:46.567 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 18:14:46.784 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 224.9297ms
+2023-12-22 18:14:46.794 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 18:14:46.896 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 102.8124ms
+2023-12-22 18:14:46.905 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 18:14:46.907 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 18:14:46.907 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 18:14:46.970 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 18:14:46.970 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 18:14:46.973 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 65.5996ms
+2023-12-22 18:14:46.973 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 67.7205ms
+2023-12-22 18:14:46.993 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 18:14:46.993 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 86.744ms
+2023-12-22 18:14:46.999 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 18:14:47.005 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.4425ms
+2023-12-22 18:14:47.024 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 18:14:47.089 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.0674ms
+2023-12-22 18:14:47.364 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 18:14:47.588 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.2798ms
+2023-12-22 18:14:53.746 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 18:14:53.752 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:14:53.781 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:14:54.028 [INF] Data Processing in API 12/22/2023 6:14:54 PM
+2023-12-22 18:14:54.030 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3413 12/22/2023 6:14:54 PM
+2023-12-22 18:15:21.832 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 18:15:22.081 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 18:15:22.082 [INF] Now listening on: http://localhost:5021
+2023-12-22 18:15:22.086 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 18:15:22.087 [INF] Hosting environment: Development
+2023-12-22 18:15:22.088 [INF] Content root path: C:\Users\ankur\Desktop\AnkurAvinex_G24_Prod\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 18:15:24.300 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 18:15:24.407 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 111.5223ms
+2023-12-22 18:15:24.412 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 18:15:24.491 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 79.7076ms
+2023-12-22 18:15:24.494 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 18:15:24.495 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 18:15:24.495 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 18:15:24.495 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 18:15:24.501 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 18:15:24.509 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 14.685ms
+2023-12-22 18:15:24.539 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 18:15:24.541 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 47.2015ms
+2023-12-22 18:15:24.542 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 18:15:24.542 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 47.5734ms
+2023-12-22 18:15:24.560 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 18:15:24.561 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 66.0266ms
+2023-12-22 18:15:24.562 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.1682ms
+2023-12-22 18:15:24.705 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 18:15:24.879 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.716ms
+2023-12-22 18:15:26.749 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3081 - application/json 2
+2023-12-22 18:15:26.754 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:15:26.775 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:15:26.997 [INF] Data Processing in API 12/22/2023 6:15:26 PM
+2023-12-22 18:15:26.999 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3081 12/22/2023 6:15:26 PM
+2023-12-22 18:17:50.910 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 18:17:51.314 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 18:17:51.316 [INF] Now listening on: http://localhost:5021
+2023-12-22 18:17:51.320 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 18:17:51.322 [INF] Hosting environment: Development
+2023-12-22 18:17:51.323 [INF] Content root path: C:\Users\ankur\Desktop\AnkurAvinex_G24_Prod\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 18:17:53.896 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - application/json 2
+2023-12-22 18:17:53.941 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:17:53.963 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:17:54.564 [INF] Data Processing in API 12/22/2023 6:17:54 PM
+2023-12-22 18:17:54.566 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:17:54 PM
+2023-12-22 18:17:54.662 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 18:17:54.760 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 97.8314ms
+2023-12-22 18:17:54.777 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 18:17:54.859 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 82.5742ms
+2023-12-22 18:17:54.862 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 18:17:54.863 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 18:17:54.863 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 18:17:54.863 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 18:17:54.863 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 18:17:54.874 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.3801ms
+2023-12-22 18:17:54.906 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 18:17:54.906 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 18:17:54.909 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 46.7789ms
+2023-12-22 18:17:54.909 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 47.2718ms
+2023-12-22 18:17:54.918 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 18:17:54.918 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 55.6544ms
+2023-12-22 18:17:54.929 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.625ms
+2023-12-22 18:17:54.991 [INF] Stored Procedure Call End for CycleID:3041Total data fill operation took: 349 ms
+2023-12-22 18:17:54.996 [INF] Total data push to MongoDB operation took: 426 ms
+2023-12-22 18:17:54.999 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:17:54 PM
+2023-12-22 18:17:55.000 [INF] Data Processing in API End 12/22/2023 6:17:54 PM
+2023-12-22 18:17:55.006 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-12-22 18:17:55.011 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 1045.1608ms
+2023-12-22 18:17:55.012 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:17:55.012 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - 400 null text/plain; charset=utf-8 1120.6901ms
+2023-12-22 18:17:55.071 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 18:17:55.292 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.3529ms
+2023-12-22 18:18:04.256 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - application/json 2
+2023-12-22 18:18:04.258 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:04.258 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:18:04.262 [INF] Data Processing in API 12/22/2023 6:18:04 PM
+2023-12-22 18:18:04.263 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:04 PM
+2023-12-22 18:18:04.272 [INF] Stored Procedure Call End for CycleID:3041Total data fill operation took: 7 ms
+2023-12-22 18:18:04.274 [INF] Total data push to MongoDB operation took: 9 ms
+2023-12-22 18:18:04.276 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:04 PM
+2023-12-22 18:18:04.277 [INF] Data Processing in API End 12/22/2023 6:18:04 PM
+2023-12-22 18:18:04.278 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-12-22 18:18:04.278 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 20.1153ms
+2023-12-22 18:18:04.278 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:04.278 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - 400 null text/plain; charset=utf-8 22.3468ms
+2023-12-22 18:18:27.571 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - application/json 2
+2023-12-22 18:18:27.571 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:27.572 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:18:27.575 [INF] Data Processing in API 12/22/2023 6:18:27 PM
+2023-12-22 18:18:27.576 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:27 PM
+2023-12-22 18:18:27.582 [INF] Stored Procedure Call End for CycleID:3041Total data fill operation took: 3 ms
+2023-12-22 18:18:27.584 [INF] Total data push to MongoDB operation took: 5 ms
+2023-12-22 18:18:27.585 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:27 PM
+2023-12-22 18:18:27.587 [INF] Data Processing in API End 12/22/2023 6:18:27 PM
+2023-12-22 18:18:27.587 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-12-22 18:18:27.587 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 15.7948ms
+2023-12-22 18:18:27.588 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:27.588 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - 400 null text/plain; charset=utf-8 16.6267ms
+2023-12-22 18:18:28.892 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - application/json 2
+2023-12-22 18:18:28.892 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:28.892 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:18:28.894 [INF] Data Processing in API 12/22/2023 6:18:28 PM
+2023-12-22 18:18:28.896 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:28 PM
+2023-12-22 18:18:28.901 [INF] Stored Procedure Call End for CycleID:3041Total data fill operation took: 3 ms
+2023-12-22 18:18:28.902 [INF] Total data push to MongoDB operation took: 5 ms
+2023-12-22 18:18:28.904 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:28 PM
+2023-12-22 18:18:28.905 [INF] Data Processing in API End 12/22/2023 6:18:28 PM
+2023-12-22 18:18:28.905 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-12-22 18:18:28.906 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 13.5974ms
+2023-12-22 18:18:28.906 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:28.906 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - 400 null text/plain; charset=utf-8 14.234ms
+2023-12-22 18:18:48.386 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 18:18:48.654 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 18:18:48.656 [INF] Now listening on: http://localhost:5021
+2023-12-22 18:18:48.660 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 18:18:48.662 [INF] Hosting environment: Development
+2023-12-22 18:18:48.663 [INF] Content root path: C:\Users\ankur\Desktop\AnkurAvinex_G24_Prod\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 18:18:49.098 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 18:18:49.450 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 355.4086ms
+2023-12-22 18:18:49.455 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 18:18:49.514 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 58.4818ms
+2023-12-22 18:18:49.517 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 18:18:49.517 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 18:18:49.518 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 18:18:49.556 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 18:18:49.556 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 18:18:49.559 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 41.3467ms
+2023-12-22 18:18:49.559 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 42.7555ms
+2023-12-22 18:18:49.562 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 18:18:49.562 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 18:18:49.562 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 45.1583ms
+2023-12-22 18:18:49.566 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 4.1411ms
+2023-12-22 18:18:49.568 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 18:18:49.603 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.7009ms
+2023-12-22 18:18:49.750 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 18:18:49.890 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.1915ms
+2023-12-22 18:18:56.620 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - application/json 2
+2023-12-22 18:18:56.626 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:56.646 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:18:56.823 [INF] Data Processing in API 12/22/2023 6:18:56 PM
+2023-12-22 18:18:56.827 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:56 PM
+2023-12-22 18:18:57.054 [INF] Stored Procedure Call End for CycleID:3041Total data fill operation took: 203 ms
+2023-12-22 18:18:57.059 [INF] Total data push to MongoDB operation took: 228 ms
+2023-12-22 18:18:57.061 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:57 PM
+2023-12-22 18:18:57.062 [INF] Data Processing in API End 12/22/2023 6:18:57 PM
+2023-12-22 18:18:57.066 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-12-22 18:18:57.071 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 422.113ms
+2023-12-22 18:18:57.072 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:57.073 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - 400 null text/plain; charset=utf-8 452.8573ms
+2023-12-22 18:18:58.523 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - application/json 2
+2023-12-22 18:18:58.524 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:58.524 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:18:58.528 [INF] Data Processing in API 12/22/2023 6:18:58 PM
+2023-12-22 18:18:58.529 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:58 PM
+2023-12-22 18:18:58.537 [INF] Stored Procedure Call End for CycleID:3041Total data fill operation took: 6 ms
+2023-12-22 18:18:58.539 [INF] Total data push to MongoDB operation took: 7 ms
+2023-12-22 18:18:58.540 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3041 12/22/2023 6:18:58 PM
+2023-12-22 18:18:58.542 [INF] Data Processing in API End 12/22/2023 6:18:58 PM
+2023-12-22 18:18:58.542 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-12-22 18:18:58.542 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 18.3547ms
+2023-12-22 18:18:58.542 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:18:58.543 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3041 - 400 null text/plain; charset=utf-8 20.0436ms
+2023-12-22 18:19:23.004 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - application/json 2
+2023-12-22 18:19:23.008 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:19:23.010 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:19:23.014 [INF] Data Processing in API 12/22/2023 6:19:23 PM
+2023-12-22 18:19:23.016 [INF] Data import Process started for Unit: <Unit Name> Cycle: 3413 12/22/2023 6:19:23 PM
+2023-12-22 18:20:13.556 [INF] Stored Procedure Call End for CycleID:3413Total data fill operation took: 50518 ms
+2023-12-22 18:21:30.881 [INF] Batch 1 insert took: 267 ms
+2023-12-22 18:21:32.409 [INF] Batch 2 insert took: 43 ms
+2023-12-22 18:21:34.059 [INF] Batch 3 insert took: 411 ms
+2023-12-22 18:21:35.592 [INF] Batch 4 insert took: 505 ms
+2023-12-22 18:21:37.900 [INF] Batch 5 insert took: 417 ms
+2023-12-22 18:21:39.997 [INF] Batch 6 insert took: 760 ms
+2023-12-22 18:21:41.906 [INF] Batch 7 insert took: 516 ms
+2023-12-22 18:21:43.434 [INF] Batch 8 insert took: 459 ms
+2023-12-22 18:21:46.908 [INF] Batch 9 insert took: 463 ms
+2023-12-22 18:21:49.232 [INF] Batch 10 insert took: 453 ms
+2023-12-22 18:21:52.153 [INF] Batch 11 insert took: 1927 ms
+2023-12-22 18:21:54.290 [INF] Batch 12 insert took: 1179 ms
+2023-12-22 18:21:55.751 [INF] Batch 13 insert took: 566 ms
+2023-12-22 18:21:57.330 [INF] Batch 14 insert took: 468 ms
+2023-12-22 18:21:58.919 [INF] Batch 15 insert took: 465 ms
+2023-12-22 18:22:00.437 [INF] Batch 16 insert took: 492 ms
+2023-12-22 18:22:01.836 [INF] Batch 17 insert took: 409 ms
+2023-12-22 18:22:03.404 [INF] Batch 18 insert took: 459 ms
+2023-12-22 18:22:04.672 [INF] Batch 19 insert took: 399 ms
+2023-12-22 18:22:06.077 [INF] Batch 20 insert took: 433 ms
+2023-12-22 18:22:07.674 [INF] Batch 21 insert took: 500 ms
+2023-12-22 18:22:09.066 [INF] Batch 22 insert took: 425 ms
+2023-12-22 18:22:10.574 [INF] Batch 23 insert took: 481 ms
+2023-12-22 18:22:12.177 [INF] Batch 24 insert took: 429 ms
+2023-12-22 18:22:13.657 [INF] Batch 25 insert took: 465 ms
+2023-12-22 18:22:15.074 [INF] Batch 26 insert took: 400 ms
+2023-12-22 18:22:18.385 [INF] Batch 27 insert took: 495 ms
+2023-12-22 18:22:19.976 [INF] Batch 28 insert took: 408 ms
+2023-12-22 18:22:21.688 [INF] Batch 29 insert took: 555 ms
+2023-12-22 18:22:23.184 [INF] Batch 30 insert took: 460 ms
+2023-12-22 18:22:24.578 [INF] Batch 31 insert took: 445 ms
+2023-12-22 18:22:26.435 [INF] Batch 32 insert took: 846 ms
+2023-12-22 18:22:27.821 [INF] Batch 33 insert took: 403 ms
+2023-12-22 18:22:29.270 [INF] Batch 34 insert took: 458 ms
+2023-12-22 18:22:30.756 [INF] Batch 35 insert took: 484 ms
+2023-12-22 18:22:32.228 [INF] Batch 36 insert took: 470 ms
+2023-12-22 18:22:34.271 [INF] Batch 37 insert took: 1150 ms
+2023-12-22 18:22:35.666 [INF] Batch 38 insert took: 410 ms
+2023-12-22 18:22:37.324 [INF] Batch 39 insert took: 462 ms
+2023-12-22 18:22:38.598 [INF] Batch 40 insert took: 404 ms
+2023-12-22 18:22:40.087 [INF] Batch 41 insert took: 452 ms
+2023-12-22 18:22:41.663 [INF] Batch 42 insert took: 472 ms
+2023-12-22 18:22:43.549 [INF] Batch 43 insert took: 491 ms
+2023-12-22 18:22:46.046 [INF] Batch 44 insert took: 420 ms
+2023-12-22 18:22:48.619 [INF] Batch 45 insert took: 1385 ms
+2023-12-22 18:22:50.076 [INF] Batch 46 insert took: 493 ms
+2023-12-22 18:22:51.450 [INF] Batch 47 insert took: 430 ms
+2023-12-22 18:22:54.311 [INF] Batch 48 insert took: 469 ms
+2023-12-22 18:22:55.599 [INF] Batch 49 insert took: 399 ms
+2023-12-22 18:22:57.008 [INF] Batch 50 insert took: 460 ms
+2023-12-22 18:22:58.293 [INF] Batch 51 insert took: 405 ms
+2023-12-22 18:22:59.774 [INF] Batch 52 insert took: 462 ms
+2023-12-22 18:23:01.443 [INF] Batch 53 insert took: 394 ms
+2023-12-22 18:23:02.812 [INF] Batch 54 insert took: 420 ms
+2023-12-22 18:23:04.396 [INF] Batch 55 insert took: 474 ms
+2023-12-22 18:23:05.858 [INF] Batch 56 insert took: 395 ms
+2023-12-22 18:23:07.360 [INF] Batch 57 insert took: 472 ms
+2023-12-22 18:23:08.897 [INF] Batch 58 insert took: 463 ms
+2023-12-22 18:23:10.903 [INF] Batch 59 insert took: 467 ms
+2023-12-22 18:23:12.234 [INF] Batch 60 insert took: 410 ms
+2023-12-22 18:23:13.691 [INF] Batch 61 insert took: 477 ms
+2023-12-22 18:23:15.181 [INF] Batch 62 insert took: 455 ms
+2023-12-22 18:23:16.657 [INF] Batch 63 insert took: 446 ms
+2023-12-22 18:23:18.287 [INF] Batch 64 insert took: 427 ms
+2023-12-22 18:23:19.721 [INF] Batch 65 insert took: 450 ms
+2023-12-22 18:23:22.429 [INF] Batch 66 insert took: 494 ms
+2023-12-22 18:23:23.882 [INF] Batch 67 insert took: 418 ms
+2023-12-22 18:23:26.818 [INF] Batch 68 insert took: 1859 ms
+2023-12-22 18:23:28.214 [INF] Batch 69 insert took: 466 ms
+2023-12-22 18:23:29.547 [INF] Batch 70 insert took: 458 ms
+2023-12-22 18:23:31.206 [INF] Batch 71 insert took: 461 ms
+2023-12-22 18:23:32.520 [INF] Batch 72 insert took: 411 ms
+2023-12-22 18:23:33.972 [INF] Batch 73 insert took: 470 ms
+2023-12-22 18:23:35.297 [INF] Batch 74 insert took: 431 ms
+2023-12-22 18:23:36.784 [INF] Batch 75 insert took: 480 ms
+2023-12-22 18:23:38.649 [INF] Batch 76 insert took: 529 ms
+2023-12-22 18:23:39.944 [INF] Batch 77 insert took: 399 ms
+2023-12-22 18:23:41.645 [INF] Batch 78 insert took: 628 ms
+2023-12-22 18:23:42.757 [INF] Batch 79 insert took: 347 ms
+2023-12-22 18:23:42.795 [INF] Total data push to MongoDB operation took: 259733 ms
+2023-12-22 18:23:42.882 [INF] Data import process ended for Unit: <Unit Name> Cycle: 3413 12/22/2023 6:23:42 PM
+2023-12-22 18:23:43.381 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-12-22 18:23:43.474 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 260454.811ms
+2023-12-22 18:23:43.481 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:23:43.494 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=3413 - 200 null text/plain; charset=utf-8 260480.4947ms
+2023-12-22 18:33:13.699 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 18:33:14.079 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 18:33:14.080 [INF] Now listening on: http://localhost:5021
+2023-12-22 18:33:14.085 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 18:33:14.087 [INF] Hosting environment: Development
+2023-12-22 18:33:14.088 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 18:33:19.633 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 18:33:19.820 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 204.969ms
+2023-12-22 18:33:19.834 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 18:33:19.955 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 121.4408ms
+2023-12-22 18:33:19.989 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 18:33:19.990 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 18:33:19.992 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 18:33:19.997 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 18:33:20.013 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 18:33:20.026 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 29.007ms
+2023-12-22 18:33:20.085 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 18:33:20.087 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 98.4877ms
+2023-12-22 18:33:20.090 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 18:33:20.090 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 98.4406ms
+2023-12-22 18:33:20.117 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 18:33:20.118 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 127.3161ms
+2023-12-22 18:33:21.425 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1411.6671ms
+2023-12-22 18:33:21.470 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 18:33:21.665 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.6559ms
+2023-12-22 18:33:34.959 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - application/json 2
+2023-12-22 18:33:35.071 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 18:33:35.083 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - 500 null text/plain; charset=utf-8 124.1356ms
+2023-12-22 18:34:04.469 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 18:34:04.833 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-22 18:34:04.835 [INF] Now listening on: http://localhost:5021
+2023-12-22 18:34:04.841 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 18:34:04.843 [INF] Hosting environment: Development
+2023-12-22 18:34:04.845 [INF] Content root path: C:\Users\ankur\Desktop\Ankur_PreProd_Clude_App\Revamp_Version_1.2\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.2\Revamp_Ank_App
+2023-12-22 18:34:09.360 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - application/json 2
+2023-12-22 18:34:09.360 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-22 18:34:09.568 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 222.7253ms
+2023-12-22 18:34:09.592 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-22 18:34:09.708 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 115.8459ms
+2023-12-22 18:34:09.805 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-22 18:34:09.812 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-22 18:34:09.820 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-22 18:34:09.843 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-22 18:34:09.843 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 37.9385ms
+2023-12-22 18:34:09.850 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-22 18:34:09.850 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 29.8252ms
+2023-12-22 18:34:09.876 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-22 18:34:09.877 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 65.0634ms
+2023-12-22 18:34:09.971 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-22 18:34:09.975 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 4.4728ms
+2023-12-22 18:34:10.033 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-22 18:34:10.072 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.863ms
+2023-12-22 18:34:10.664 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-22 18:34:10.918 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 254.5799ms
+2023-12-22 18:34:13.773 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/22/2023 1:04:13 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-22 18:34:13.775 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/22/2023 1:04:13 PM'.
+2023-12-22 18:34:13.780 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:34:13.815 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-22 18:34:14.153 [INF] Data Processing in API 12/22/2023 6:34:14 PM
+2023-12-22 18:34:14.155 [INF] Data import Process started for Unit: <Unit Name> Cycle: 1289 12/22/2023 6:34:14 PM
+2023-12-22 18:34:15.883 [INF] Stored Procedure Call End for CycleID:1289Total data fill operation took: 1672 ms
+2023-12-22 18:34:19.143 [INF] Batch 1 insert took: 169 ms
+2023-12-22 18:34:19.425 [INF] Batch 2 insert took: 19 ms
+2023-12-22 18:34:19.427 [INF] Total data push to MongoDB operation took: 5268 ms
+2023-12-22 18:34:19.430 [INF] Data import process ended for Unit: <Unit Name> Cycle: 1289 12/22/2023 6:34:19 PM
+2023-12-22 18:34:19.438 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-12-22 18:34:19.446 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 5626.764ms
+2023-12-22 18:34:19.447 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-22 18:34:19.448 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - 200 null text/plain; charset=utf-8 10103.1497ms

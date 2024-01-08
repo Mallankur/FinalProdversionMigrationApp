@@ -1,0 +1,87 @@
+2023-12-28 15:12:58.471 [INF] User profile is available. Using 'C:\Users\ankur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-28 15:12:59.109 [INF] Now listening on: https://10.2.10.19:7011
+2023-12-28 15:12:59.111 [INF] Now listening on: http://localhost:5021
+2023-12-28 15:12:59.115 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-28 15:12:59.117 [INF] Hosting environment: Development
+2023-12-28 15:12:59.119 [INF] Content root path: C:\Users\ankur\Desktop\preprodRevamp\Revamp_Version_1.2_26_12_2023\RevampWebApp_v.3.0Rd12_21_23\Revamp_v2.3_26_12_23\Revamp_Ank_App
+2023-12-28 15:12:59.493 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger - null null
+2023-12-28 15:12:59.626 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger - 301 0 null 136.045ms
+2023-12-28 15:12:59.630 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-28 15:12:59.689 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 59.0432ms
+2023-12-28 15:12:59.692 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-28 15:12:59.692 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-28 15:12:59.692 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - null null
+2023-12-28 15:12:59.692 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - null null
+2023-12-28 15:12:59.693 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-28 15:12:59.705 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.7142ms
+2023-12-28 15:12:59.780 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-28 15:12:59.780 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-28 15:12:59.780 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 88.7033ms
+2023-12-28 15:12:59.780 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 88.9612ms
+2023-12-28 15:12:59.795 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-28 15:12:59.795 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 103.0939ms
+2023-12-28 15:13:01.105 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1412.074ms
+2023-12-28 15:13:01.137 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-28 15:13:01.369 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.1252ms
+2023-12-28 15:13:20.875 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - application/json 2
+2023-12-28 15:13:25.166 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/28/2023 9:43:25 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-28 15:13:25.167 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/28/2023 9:43:25 AM'.
+2023-12-28 15:13:25.171 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-28 15:13:25.174 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-28 15:13:25.201 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - 401 0 null 4326.0298ms
+2023-12-28 15:14:18.077 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - application/json 2
+2023-12-28 15:14:22.161 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/28/2023 9:44:22 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-28 15:14:22.161 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/28/2023 9:44:22 AM'.
+2023-12-28 15:14:22.162 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-28 15:14:22.162 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-28 15:14:22.162 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - 401 0 null 4085.5095ms
+2023-12-28 15:14:43.350 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - null null
+2023-12-28 15:14:43.360 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/index.html - 200 null text/html;charset=utf-8 10.6279ms
+2023-12-28 15:14:43.362 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - null null
+2023-12-28 15:14:43.362 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-28 15:14:43.362 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - null null
+2023-12-28 15:14:43.363 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.0294ms
+2023-12-28 15:14:43.369 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-28 15:14:43.369 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/swagger-ui.css - 200 143943 text/css 7.2366ms
+2023-12-28 15:14:43.375 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3084ms
+2023-12-28 15:14:43.432 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - null null
+2023-12-28 15:14:43.437 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.0389ms
+2023-12-28 15:14:43.438 [INF] Request starting HTTP/2 GET https://10.2.10.19:7011/swagger/favicon-32x32.png - null null
+2023-12-28 15:14:43.438 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-28 15:14:43.438 [INF] Request finished HTTP/2 GET https://10.2.10.19:7011/swagger/favicon-32x32.png - 200 628 image/png 0.6765ms
+2023-12-28 15:14:45.856 [INF] Request starting HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - application/json 2
+2023-12-28 15:14:49.938 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/28/2023 9:44:49 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2023-12-28 15:14:49.938 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12/22/2023 8:44:34 AM', Current time (UTC): '12/28/2023 9:44:49 AM'.
+2023-12-28 15:14:49.939 [INF] Executing endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-28 15:14:49.953 [INF] Route matched with {action = "PostBatchProcessing", controller = "Revamp"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostBatchProcessingAsync(System.String, Int32, System.String) on controller Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController (Revamp_Ank_App).
+2023-12-28 15:14:50.381 [INF] Data Processing in API 12/28/2023 3:14:50 PM
+2023-12-28 15:14:50.382 [INF] Data import Process started for Unit: <Unit Name> Cycle: 1289 12/28/2023 3:14:50 PM
+2023-12-28 15:14:53.038 [INF] Stored Procedure Call End for CycleID:1289Total data fill operation took: 2536 ms
+2023-12-28 15:14:54.875 [INF] Batch 1 insert took: 85 ms
+2023-12-28 15:14:55.107 [INF] Batch 2 insert took: 11 ms
+2023-12-28 15:14:55.109 [INF] Total data push to MongoDB operation took: 4723 ms
+2023-12-28 15:14:55.111 [INF] Data import process ended for Unit: <Unit Name> Cycle: 1289 12/28/2023 3:14:55 PM
+2023-12-28 15:14:55.115 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-12-28 15:14:55.121 [INF] Executed action Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App) in 5165.0206ms
+2023-12-28 15:14:55.121 [INF] Executed endpoint 'Revamp_Ank_App.Controllers.Ankur.Revamp.Controller.RevampController.PostBatchProcessingAsync (Revamp_Ank_App)'
+2023-12-28 15:14:55.121 [INF] Request finished HTTP/1.1 POST https://10.2.10.19:7011/api/Revamp/PostBatchProcessingAsync?storeProcedureName=CC_Revamp_uspGetUMData&CycleId=1289 - 200 null text/plain; charset=utf-8 9265.4145ms
