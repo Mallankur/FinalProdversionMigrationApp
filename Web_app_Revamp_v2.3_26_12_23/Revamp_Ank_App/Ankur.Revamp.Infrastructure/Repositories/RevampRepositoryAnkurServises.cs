@@ -48,8 +48,7 @@ namespace Revamp_Ank_App.Ankur.Revamp.Infrastructure.Repositories
          
         
         /// <summary>
-        /// KafkaConnector_Working_T-TB = T0-TB EXP(-hat/mcp)
-        /// or In Controller processing = T-T0 = Akp(1-e^t/tp)
+       
         /// </summary>
         /// <param name="storeProcedureName"></param>
         /// <param name="CycleId"></param>
@@ -82,8 +81,8 @@ namespace Revamp_Ank_App.Ankur.Revamp.Infrastructure.Repositories
             var pushTOMongoStopwatch = Stopwatch.StartNew();
 
 
-            if (CycleId == 26000000&& rdids == "")  
-            {
+               // if (CycleId == 3081&& rdids == "")  
+               // {
 
                 var sqlDataTabeleStreaming = await FetchAllSQLkafkaProcessing(storeProcedureName, CycleId, rdids);
                 var kafkaConnector = Stopwatch.StartNew();
@@ -106,33 +105,33 @@ namespace Revamp_Ank_App.Ankur.Revamp.Infrastructure.Repositories
 
 
                 return IsInseretd;
-            }
+                                                    //}
 
 
-            else
-            {
-                var sqlDataTabeleResult = await FetchAllSQLBatchProceesData(storeProcedureName, CycleId, rdids);
+            //else
+            //{
+            //    var sqlDataTabeleResult = await FetchAllSQLBatchProceesData(storeProcedureName, CycleId, rdids);
 
-                foreach (var Batchrow in sqlDataTabeleResult)
-                {
-                    IEnumerable<RevampMongoDataModel> revamapData = Newtonsoft.Json.JsonConvert.DeserializeObject<IEnumerable<RevampMongoDataModel>>(Batchrow, new DateTimeToMillisecondConverter());
-                    var batchInsertStopwatch = Stopwatch.StartNew();
-                    if (revamapData.Any())
-                    {
-                        RevampCollection.InsertManyAsync(revamapData);
-                        batchInsertStopwatch.Stop();
-                        batchCount++;
-                        _logger.LogInformation("Batch {BatchNumber} insert took: {ElapsedMilliseconds} ms", batchCount, batchInsertStopwatch.ElapsedMilliseconds);
-                        IsInseretd = true;
-                    }
-                }
-                pushTOMongoStopwatch.Stop();
-                _logger.LogInformation
-                    ("Total data push to MongoDB operation took: {ElapsedMilliseconds} ms", pushTOMongoStopwatch.ElapsedMilliseconds);
-                return IsInseretd;
-            }
+            //    foreach (var Batchrow in sqlDataTabeleResult)
+            //    {
+            //        IEnumerable<RevampMongoDataModel> revamapData = Newtonsoft.Json.JsonConvert.DeserializeObject<IEnumerable<RevampMongoDataModel>>(Batchrow, new DateTimeToMillisecondConverter());
+            //        var batchInsertStopwatch = Stopwatch.StartNew();
+            //        if (revamapData.Any())
+            //        {
+            //            RevampCollection.InsertManyAsync(revamapData);
+            //            batchInsertStopwatch.Stop();
+            //            batchCount++;
+            //            _logger.LogInformation("Batch {BatchNumber} insert took: {ElapsedMilliseconds} ms", batchCount, batchInsertStopwatch.ElapsedMilliseconds);
+            //            IsInseretd = true;
+            //        }
+            //    }
+            //    pushTOMongoStopwatch.Stop();
+            //    _logger.LogInformation
+            //        ("Total data push to MongoDB operation took: {ElapsedMilliseconds} ms", pushTOMongoStopwatch.ElapsedMilliseconds);
+            //    return IsInseretd;
+            //}
 
-                      return IsInseretd;
+            //          return IsInseretd;
         }
 
         

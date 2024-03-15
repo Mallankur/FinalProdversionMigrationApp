@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RevampTestCase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+793638929dec8070ada6e37e4fbc33a1e4b091de")]
 [assembly: System.Reflection.AssemblyProductAttribute("RevampTestCase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RevampTestCase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

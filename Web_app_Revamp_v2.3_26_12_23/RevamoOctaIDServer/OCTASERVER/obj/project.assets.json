@@ -1843,11 +1843,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\AnkurAvinex_G24_Prod\\Web_app_Revamp_v2.3_26_12_23\\RevamoOctaIDServer\\OCTASERVER\\OCTASERVER.csproj",
+      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\AzureCloudeMigTest01\\FinalProdversionMigrationApp\\Web_app_Revamp_v2.3_26_12_23\\RevamoOctaIDServer\\OCTASERVER\\OCTASERVER.csproj",
       "projectName": "OCTASERVER",
-      "projectPath": "C:\\Users\\ankur\\Desktop\\AnkurAvinex_G24_Prod\\Web_app_Revamp_v2.3_26_12_23\\RevamoOctaIDServer\\OCTASERVER\\OCTASERVER.csproj",
+      "projectPath": "C:\\Users\\ankur\\Desktop\\AzureCloudeMigTest01\\FinalProdversionMigrationApp\\Web_app_Revamp_v2.3_26_12_23\\RevamoOctaIDServer\\OCTASERVER\\OCTASERVER.csproj",
       "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankur\\Desktop\\AnkurAvinex_G24_Prod\\Web_app_Revamp_v2.3_26_12_23\\RevamoOctaIDServer\\OCTASERVER\\obj\\",
+      "outputPath": "C:\\Users\\ankur\\Desktop\\AzureCloudeMigTest01\\FinalProdversionMigrationApp\\Web_app_Revamp_v2.3_26_12_23\\RevamoOctaIDServer\\OCTASERVER\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1870,6 +1870,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1916,7 +1921,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

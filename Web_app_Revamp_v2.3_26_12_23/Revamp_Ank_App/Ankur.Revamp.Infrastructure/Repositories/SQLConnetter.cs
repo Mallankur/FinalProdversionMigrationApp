@@ -85,7 +85,7 @@ namespace Revamp_Ank_App.Ankur.Revamp.Infrastructure.Repositories
       
 
         /// <summary>
-        /// p/rho*g + v2/2g + z = c 
+        /// 
         /// </summary>
         /// <param name="sqlConnectionString"></param>
         /// <param name="storeProcedureName"></param>
@@ -229,7 +229,7 @@ namespace Revamp_Ank_App.Ankur.Revamp.Infrastructure.Repositories
                 concatenatedValues.Add(rdidValue);
                 var sqlAdapterLogger = Stopwatch.StartNew();
 
-                if (concatenatedValues.Count % 100 == 0)
+                if (concatenatedValues.Count % 50 == 0)
                 {
                     var concatenatedString = string.Join(",", concatenatedValues);
                    

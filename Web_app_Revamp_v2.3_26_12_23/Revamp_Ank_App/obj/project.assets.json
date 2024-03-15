@@ -3857,11 +3857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\AnkurAvinex_G24_Prod\\Web_app_Revamp_v2.3_26_12_23\\Revamp_Ank_App\\Revamp_Ank_App.csproj",
+      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\AzureCloudeMigTest01\\FinalProdversionMigrationApp\\Web_app_Revamp_v2.3_26_12_23\\Revamp_Ank_App\\Revamp_Ank_App.csproj",
       "projectName": "Revamp_Ank_App",
-      "projectPath": "C:\\Users\\ankur\\Desktop\\AnkurAvinex_G24_Prod\\Web_app_Revamp_v2.3_26_12_23\\Revamp_Ank_App\\Revamp_Ank_App.csproj",
+      "projectPath": "C:\\Users\\ankur\\Desktop\\AzureCloudeMigTest01\\FinalProdversionMigrationApp\\Web_app_Revamp_v2.3_26_12_23\\Revamp_Ank_App\\Revamp_Ank_App.csproj",
       "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankur\\Desktop\\AnkurAvinex_G24_Prod\\Web_app_Revamp_v2.3_26_12_23\\Revamp_Ank_App\\obj\\",
+      "outputPath": "C:\\Users\\ankur\\Desktop\\AzureCloudeMigTest01\\FinalProdversionMigrationApp\\Web_app_Revamp_v2.3_26_12_23\\Revamp_Ank_App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3884,6 +3884,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3954,8 +3959,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.SqlClient' 5.1.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "Microsoft.Data.SqlClient",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

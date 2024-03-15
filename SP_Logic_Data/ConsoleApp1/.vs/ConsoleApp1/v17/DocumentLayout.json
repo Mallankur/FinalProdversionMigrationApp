@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ankur\\Desktop\\Migration API\\FinalProdversionMigrationApp\\SP_Logic_Data\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4162A2-2A25-46E8-93FF-F24E102757E6}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\ankur\\desktop\\migration api\\finalprodversionmigrationapp\\sp_logic_data\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4162A2-2A25-46E8-93FF-F24E102757E6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4162A2-2A25-46E8-93FF-F24E102757E6}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\ankur\\Desktop\\Migration API\\FinalProdversionMigrationApp\\SP_Logic_Data\\ConsoleApp1\\consoleapp1\\spreturndata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4162A2-2A25-46E8-93FF-F24E102757E6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\spreturndata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ankur\\Desktop\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\RevampRepositoryAnkurServises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ankur\\Desktop\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\SQLConnetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RevampRepositoryAnkurServises.cs",
+              "DocumentMoniker": "C:\\Users\\ankur\\Desktop\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\RevampRepositoryAnkurServises.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\RevampRepositoryAnkurServises.cs",
+              "ToolTip": "C:\\Users\\ankur\\Desktop\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\RevampRepositoryAnkurServises.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\RevampRepositoryAnkurServises.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAADgvzoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-28T08:20:08.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLConnetter.cs",
+              "DocumentMoniker": "C:\\Users\\ankur\\Desktop\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\SQLConnetter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\SQLConnetter.cs",
+              "ToolTip": "C:\\Users\\ankur\\Desktop\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\SQLConnetter.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Ankur_PreProd_Clude_App\\Revamp_Version_1.2_26_12_2023\\RevampWebApp_v.3.0Rd12_21_23\\Revamp_v2.2\\Revamp_Ank_App\\Ankur.Revamp.Infrastructure\\Repositories\\SQLConnetter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-28T08:20:08.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SPReturnData.cs",
+              "DocumentMoniker": "C:\\Users\\ankur\\Desktop\\Migration API\\FinalProdversionMigrationApp\\SP_Logic_Data\\ConsoleApp1\\ConsoleApp1\\SPReturnData.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SPReturnData.cs",
+              "ToolTip": "C:\\Users\\ankur\\Desktop\\Migration API\\FinalProdversionMigrationApp\\SP_Logic_Data\\ConsoleApp1\\ConsoleApp1\\SPReturnData.cs",
+              "RelativeToolTip": "ConsoleApp1\\SPReturnData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T07:59:12.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ankur\\Desktop\\Migration API\\FinalProdversionMigrationApp\\SP_Logic_Data\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\ankur\\Desktop\\Migration API\\FinalProdversionMigrationApp\\SP_Logic_Data\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T07:59:12.65Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

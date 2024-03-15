@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RevampTestCase
-build_property.ProjectDir = C:\Users\ankur\Desktop\AnkurAvinex_G24_Prod\Web_app_Revamp_v2.3_26_12_23\RevampTestCase\
+build_property.ProjectDir = C:\Users\ankur\Desktop\AzureCloudeMigTest01\FinalProdversionMigrationApp\Web_app_Revamp_v2.3_26_12_23\RevampTestCase\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

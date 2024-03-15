@@ -1,2 +1,0 @@
-# FinalProdversionMigrationApp
-SQLTOCOSMOSAPP

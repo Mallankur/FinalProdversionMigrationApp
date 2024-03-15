@@ -38,7 +38,7 @@ builder.Services.AddAuthentication("Bearer")
     });
 
 Log.Logger = new LoggerConfiguration()
-        .WriteTo.File("C:\\Users\\ankur\\Desktop\\AvinexAnkurAPP\\WebApiLog\\log.txt" ,rollingInterval: RollingInterval.Day,
+        .WriteTo.File("C:\\Users\\ankur\\Desktop\\MigrationAPIlog\\WebApiLog\\log.txt", rollingInterval: RollingInterval.Day,
           outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} [{Level:u3}] {Message:lj}{NewLine}{Exception}",
            fileSizeLimitBytes: null,
                                             retainedFileCountLimit: null,
